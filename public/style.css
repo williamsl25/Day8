@@ -1,0 +1,43 @@
+html, body {
+	height: 100%;
+}
+.center {
+	background-color: blue;
+}
+h1.header {
+	background-color: rgba(0,0,0,.15);
+	padding: 1%;	
+}
+
+footer {
+	position: absolute;
+	text-align: center;
+	left: 0px;
+	right: 0px;
+	bottom: 5px;
+}
+.bottomLeft {
+	position: absolute;
+	left: 15px;
+	bottom: 25px;
+	text-align: left;
+	display: inline-block;
+}
+.bottomCenter {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 25px;
+  	text-align: center;
+  	display: inline-block;
+}
+.bottomRight {
+	position: absolute;
+	right: 15px;
+	bottom: 25px;
+	text-align: right;
+	display: inline-block;
+}
+
+
+

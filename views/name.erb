@@ -1,0 +1,17 @@
+<!-- puts @students -->
+<!-- = signifies puts and prints info to the page -->
+<!-- write ruby code inside <%= %>  -->
+<h1 class='header'>
+	<center>Running</center>
+	<center><img src="/images/multi_sports.jpg"></center>
+</h1>
+
+<a href="/">Back</a>
+<%= @students %>
+<%= @coolest_person_in_the_world %>
+<br>
+<% @students.each do |student| %>
+	<strong><%= student[:first_name] %></strong>
+	<strong><%= student[:last_name] %></strong>
+	<br>
+<% end %>

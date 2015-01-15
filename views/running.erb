@@ -1,0 +1,32 @@
+<!-- puts @students -->
+<!-- = signifies puts and prints info to the page -->
+<!-- write ruby code inside <%= %>  -->
+<h1 class='header'>
+	<center>Running</center>
+	<center><img src="/images/multi_sports.jpg"></center>
+</h1>
+
+<a href="/">Back</a>
+
+
+<%= @next_marathon %>
+<br>
+<div>
+	<h2>Marathons I have completed</h2>
+</div>
+<ul>
+<% @marathons.each do |marathon| %>
+	<li>
+	<strong><%= marathon[:name] %></strong>
+	<strong><%= marathon[:location] %></strong>
+	<strong><%= marathon[:date] %></strong></li>
+	
+<% end %></ul>
+<div><center>
+	<a href="http://bridgerun.com/">
+
+	<img class="bridge_run" src="./images/bridge_run.jpg"></center></a> 
+
+
+</div>
+
